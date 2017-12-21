@@ -1,0 +1,7 @@
+virtualenv
+*.py[co]
+*.swp
+
+.DS_Store
+.ropeproject/
+.idea/*
