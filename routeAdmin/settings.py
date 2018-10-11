@@ -75,16 +75,14 @@ WSGI_APPLICATION = 'routeAdmin.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'routeAdmin',
-        'USER': 'tester',
-        'PASSWORD': 'tester',
-        'HOST': '192.168.1.4',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'router',
+        'USER': 'router',
+        'PASSWORD': 'router',
+        'HOST': 'localhost',
         'PORT': '',
-        'CONN_MAX_AGE': 600,
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
